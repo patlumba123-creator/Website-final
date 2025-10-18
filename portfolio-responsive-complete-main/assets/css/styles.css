@@ -463,7 +463,7 @@ img {
   }
 }
 
-/*===== KEEP SKILLS IMAGE NEXT TO THE SKILLS BARS =====*/
+
 .skills__container {
   display: flex;
   align-items: center;
@@ -482,7 +482,7 @@ img {
   height: auto;
 }
 
-/* Responsive adjustment for small screens */
+
 @media screen and (max-width: 768px) {
   .skills__container {
     flex-direction: column;
@@ -493,3 +493,28 @@ img {
   }
 }
 
+.certificates__table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: var(--normal-font-size);
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.1);
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+.certificates__table th, 
+.certificates__table td {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.certificates__table th {
+  background-color: var(--first-color);
+  color: #fff;
+  font-weight: var(--font-semi);
+}
+
+.certificates__table tr:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
