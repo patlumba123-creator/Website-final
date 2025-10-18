@@ -195,9 +195,17 @@ img {
 }
 .home__blob {
   fill: var(--first-color);
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .home__blob-img {
-  width: 360px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 /*BUTTONS*/
@@ -484,3 +492,4 @@ img {
     margin-top: 1.5rem;
   }
 }
+
