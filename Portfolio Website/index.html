@@ -10,6 +10,15 @@
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+        <audio id="bg-music" autoplay loop>
+            <source src="assets/audio/background.mp3" type="audio/mpeg">
+             Your browser does not support the audio element.
+        </audio>
+        <script>
+        const music = document.getElementById('bg-music');
+        music.volume = 0.01; 
+        </script>
+       
 
         <title>Patrick Lumba Portfolio Website</title>
     </head>
@@ -26,7 +35,7 @@
                         <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
@@ -41,7 +50,7 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Patrick</span><br> Aspiring IT Project Manager</h1>
+                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Patrick</span><br>IT Project Manager</h1>
 
                     <a href="#contact" class="button">Contact</a>
                 </div>
@@ -134,59 +143,58 @@
                     </div>
                     
             <section class="certificates section" id="certificates">
-                <h2 class="section-title">Certificates</h2>
+            <h2 class="section-title">Certificates</h2>
 
-                <div class="bd-grid">
-                    <table class="certificates__table">
-                    <thead>
-                        <tr>
-                        <th>Certificate</th>
-                        <th>Issuer</th>
-                        <th>Date Earned</th>
-                        </tr>
-                    </thead>
+            <div class="bd-grid">
+                <table class="certificates__table">
+                <thead>
+                    <tr>
+                    <th>Certificate</th>
+                    <th>Issuer</th>
+                    <th>Date Earned</th>
+                    </tr>
+                </thead>
                     <tbody>
-                        <tr>
-                        <td>JavaScript Essentials 1</td>
-                        <td>Cisco</td>
-                        <td>October 14, 2025</td>
-                        </tr>
-                        <tr>
-                        <td>Python Essentials 1</td>
-                        <td>Cisco</td>
-                        <td>September 17, 2024</td>
-                        </tr>
-                        <tr>
-                        <td>Python Essentials 2</td>
-                        <td>Cisco</td>
-                        <td>October 22, 2024</td>
-                        </tr>
-                        <tr>
-                        <td>Introduction to Networks</td>
-                        <td>Cisco</td>
-                        <td>November 27, 2024</td>
-                        </tr>
-                        <tr>
-                        <td>Endpoint Security</td>
-                        <td>Cisco</td>
-                        <td>October 15, 2025</td>
-                        </tr>
-                        <tr>
-                        <td>Cyber Threat Management</td>
-                        <td>Cisco</td>
-                        <td>October 15, 2025</td>
-                        </tr>
-                        <tr>
-                        <td>Responsive Web Design</td>
-                        <td>freeCodeCamp</td>
-                        <td>October 3, 2025</td>
-                        </tr>
+                    <tr>
+                    <td><a href="https://www.netacad.com/profile?&tab=profile" target="_blank">JavaScript Essentials 1</a></td>
+                    <td>Cisco</td>
+                    <td>October 14, 2025</td>
+                    </tr>
+                    <tr>
+                    <td><a href="https://www.netacad.com/profile?&tab=profile" target="_blank">Python Essentials 1</a></td>
+                    <td>Cisco</td>
+                    <td>September 17, 2024</td>
+                    </tr>
+                    <tr>
+                    <td><a href="https://www.netacad.com/profile?&tab=profile" target="_blank">Python Essentials 2</a></td>
+                    <td>Cisco</td>
+                    <td>October 22, 2024</td>
+                    </tr>
+                    <tr>
+                    <td><a href="https://www.netacad.com/profile?&tab=profile" target="_blank">Introduction to Networks</a></td>
+                    <td>Cisco</td>
+                    <td>November 27, 2024</td>
+                    </tr>
+                    <tr>
+                    <td><a href="https://www.netacad.com/profile?&tab=profile" target="_blank">Endpoint Security</a></td>
+                    <td>Cisco</td>
+                    <td>October 15, 2025</td>
+                    </tr>
+                    <tr>
+                    <td><a href="https://www.netacad.com/profile?&tab=profile" target="_blank">Cyber Threat Management</a></td>
+                    <td>Cisco</td>
+                    <td>October 15, 2025</td>
+                    </tr>
+                    <tr>
+                    <td><a href="https://www.freecodecamp.org/patricklumba" target="_blank">Responsive Web Design</a></td>
+                    <td>freeCodeCamp</td>
+                    <td>October 3, 2025</td>
+                    </tr>
                     </tbody>
-                    </table>
+                 </table>
                 </div>
             </section>
-
-                 
+               
                 </div>
             </section>
 

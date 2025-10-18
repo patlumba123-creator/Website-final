@@ -526,3 +526,13 @@ img {
   margin-top: 0.75rem;
   font-size: 1rem;
 }
+
+.certificates__table a {
+  color: var(--first-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.certificates__table a:hover {
+  text-decoration: underline;
+}
