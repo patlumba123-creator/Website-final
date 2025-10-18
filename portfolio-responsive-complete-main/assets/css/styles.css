@@ -518,3 +518,11 @@ img {
 .certificates__table tr:hover {
   background-color: rgba(0, 0, 0, 0.05);
 }
+
+.work__title {
+  text-align: center;
+  font-weight: 600;
+  color: var(--second-color);
+  margin-top: 0.75rem;
+  font-size: 1rem;
+}
