@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <audio id="bg-music" autoplay loop>
+            <source src="assets/audio/background.mp3" type="audio/mpeg">
+             Your browser does not support the audio element.
+        </audio>
+        <script>
+        const music = document.getElementById('bg-music');
+        music.volume = 0.01; 
+        </script>
+       
+
+        <title>Patrick Lumba Portfolio Website</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Patrick Lumba</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Patrick</span><br>IT Project Manager</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/patricklumba" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.behance.net/for_you" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="https://github.com/patlumba123-creator" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I am Partrick</h2>
+                        <p class="about__text">I'm a Computer Science undergraduate with a passion for software development and technology.  
+        I work with Python, Java, Flutter, and HTML to build efficient and user-friendly applications.  
+        I’m always learning and improving my coding skills to create useful digital solutions.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">My Skills</h2>
+                        <p class="skills__text">I am Patrick, a Computer Science undergraduate with growing experience in Python, Java, Flutter, and HTML.  
+                                                I focus on building clean, efficient, and user-friendly projects.  
+                                                My skills are around 50% to 60%, and I keep improving through hands-on projects and continuous learning.
+                                            </p></p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fa-brands fa-python skills__icon'></i>
+                                <span class="skills__name">Python</span>
+                            </div>
+                            <div class="skills__bar skills__python"></div>
+                            <div><span class="skills__percentage">60%</span></div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fa-brands fa-java skills__icon'></i>
+                                <span class="skills__name">Java</span>
+                            </div>
+                        <div class="skills__bar skills__java"></div>
+                        <div><span class="skills__percentage">55%</span></div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fa-solid fa-mobile-screen-button skills__icon'></i>
+                                <span class="skills__name">Flutter</span>
+                            </div>
+                            <div class="skills__bar skills__flutter"></div>
+                            <div><span class="skills__percentage">50%</span></div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML</span>
+                            </div>
+                            <div class="skills__bar skills__html"></div>
+                            <div><span class="skills__percentage">60%</span></div>
+                        </div>
+
+                        </div>
+                    </div>
+                    
+            <section class="certificates section" id="certificates">
+            <h2 class="section-title">Certificates</h2>
+
+            <div class="bd-grid">
+                <table class="certificates__table">
+                <thead>
+                    <tr>
+                    <th>Certificate</th>
+                    <th>Issuer</th>
+                    <th>Date Earned</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                    <tr>
+                    <td><a href="https://www.netacad.com/profile?&tab=profile" target="_blank">JavaScript Essentials 1</a></td>
+                    <td>Cisco</td>
+                    <td>October 14, 2025</td>
+                    </tr>
+                    <tr>
+                    <td><a href="https://www.netacad.com/profile?&tab=profile" target="_blank">Python Essentials 1</a></td>
+                    <td>Cisco</td>
+                    <td>September 17, 2024</td>
+                    </tr>
+                    <tr>
+                    <td><a href="https://www.netacad.com/profile?&tab=profile" target="_blank">Python Essentials 2</a></td>
+                    <td>Cisco</td>
+                    <td>October 22, 2024</td>
+                    </tr>
+                    <tr>
+                    <td><a href="https://www.netacad.com/profile?&tab=profile" target="_blank">Introduction to Networks</a></td>
+                    <td>Cisco</td>
+                    <td>November 27, 2024</td>
+                    </tr>
+                    <tr>
+                    <td><a href="https://www.netacad.com/profile?&tab=profile" target="_blank">Endpoint Security</a></td>
+                    <td>Cisco</td>
+                    <td>October 15, 2025</td>
+                    </tr>
+                    <tr>
+                    <td><a href="https://www.netacad.com/profile?&tab=profile" target="_blank">Cyber Threat Management</a></td>
+                    <td>Cisco</td>
+                    <td>October 15, 2025</td>
+                    </tr>
+                    <tr>
+                    <td><a href="https://www.freecodecamp.org/patricklumba" target="_blank">Responsive Web Design</a></td>
+                    <td>freeCodeCamp</td>
+                    <td>October 3, 2025</td>
+                    </tr>
+                    </tbody>
+                 </table>
+                </div>
+            </section>
+               
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="https://github.com/patlumba123-creator/Matchpaws-final.git" class="work__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                        <p class="work__title">Matchpaws</p>
+                    </a>
+                    <a href="https://github.com/patlumba123-creator/OOP-FINAL-HAU-STUDENT-CAMPUS-CANTEEN-NAVIGATION-APP.git" class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                        <p class="work__title">HAUCNA</p>
+                    </a>
+                    <a href="https://github.com/patlumba123-creator/Website-final.git" class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                        <p class="work__title">Portfolio Website</p>
+                    </a>
+
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="https://formspree.io/f/mpwybeqo" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input" required>
+                        <input type="mail" placeholder="Email" class="contact__input" required>
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="submit" value="Enter" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">patlumba123@gmail.com</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/patrickelijah.lumba" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/pep.malu" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://x.com/PatrickLum98444" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Patrick Elijah A. Lumba 2025 This is a Personal Project. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
